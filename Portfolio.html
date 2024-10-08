@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Portfolio - Vivek Gazalwar</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-body fixed-top" style="
+      Float: right;
+    ">
+      <div class="container-fluid">
+        <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact me</a>
+            </li>
+          </ul>
+          <a href="https://github.com/09viv"><button class="btn btn-outline-success mx-2" type="submit">Github</button></a>
+          <a href="https://www.linkedin.com/in/vivek-gazalwar-02074924b/"><button class="btn btn-outline-success" type="submit">LinkedIn</button></a>
+        </div>
+      </div>
+    </nav>
+    <div class="text-right">
+      
+    </div>
+
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div class="p-5 text-center bg-image" style="
+            background-image: url('https://wallpapercave.com/wp/wp6412485.jpg');
+            height: 400px;
+            margin-top: 58px;
+          ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 300px;">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-4 " style="margin-bottom: 20px;">Vivek Gazalwar</h1>
+            <h4 class="mb-3" style="margin-bottom: 15px;">Developer</h4>
+
+            <a data-mdb-ripple-init class="btn btn-outline-light btn-lg my-50" href="" role="button">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+
+    <!-- About section -->
+    <div class="container" id="about" style="margin-top: 20px;">
+      <h2>About</h2>
+      <p>Hi!! i am <strong>Vivek Gazalwar.</strong>I am pursuing my bachelors in Information Technology from Sipna College Of Engineering And Technology.
+         I have a knowledge of Machine Learning, Web Development and Computer Vision. </p>
+    </div>
+    <!-- SKills section -->
+    <div class="container" id = "skills" style =" margin-top: 20px; " >
+    <h2>Skills</h2>
+  </div>
+    <div class="container"  style="display: flex;
+     justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      gap : 20px;
+     ">
+      
+      <div class="card" gap="20px">
+        <div class="card-body">
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">Here you can see my projects related to web dedvelopment.</p>
+          <a href="https://github.com/09viv/SmoothGear"><button type="button" class="btn btn-primary" data-mdb-ripple-init>Explore</button></a>
+        </div>
+      </div>
+      <div class="card" gap="20px">
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning</h5>
+          <p class="card-text">Here you can see my projects related to Machine Learning.</p>
+          <a href="https://github.com/Aryan-Chharia/Computer-Vision-Projects/tree/main/Format%20Converter"><button type="button" class="btn btn-primary" data-mdb-ripple-init>Explore</button></a>
+        </div>
+      </div>
+      <div class="card" gap="20px">
+        <div class="card-body">
+          <h5 class="card-title">Computer Vision</h5>
+          <p class="card-text">Here you can see my projects related to Computer Vision.</p>
+          <a href="https://github.com/Aryan-Chharia/Computer-Vision-Projects/tree/main/QR%20Code%20Scanner"><button type="button" class="btn btn-primary" data-mdb-ripple-init>Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div class = "container my-5" id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, suggestions, or need assistance, feel free to reach out to us using the information below:</p>
+
+      <br>
+
+      <h2>Contact Form</h2>
+      <form style="width: 26rem;">
+          <!-- Name input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
+          </div>
+        
+          <!-- Email input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2"
+              >Email address</label>
+          </div>
+        
+          <!-- Message input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+        
+          <!-- Submit button -->
+          <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+        </form>
+  </div>
+  <div class = "container">
+    <h2>Contact Information</h2>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:vivekgazalwar@gmail.com">vivekgazalwar@gmail.com</a></li>
+    </ul>
+</div>
+<footer class="bg-body-tertiary text-center text-lg-start">
+    <!-- Copyright -->
+    <div
+      class="text-center p-3"
+      style="background-color: rgba(0, 0, 0, 0.05)"
+    >
+      © 2020 Copyright:
+      <a
+        class="text-body"
+        href="https://www.linkedin.com/in/vivek-gazalwar-02074924b/"
+        >Vivek Gazalwar</a
+      >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
